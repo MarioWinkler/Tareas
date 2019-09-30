@@ -1,0 +1,9 @@
+create database Escuela;
+
+create table persona(idPersona bigint primary key not null auto_increment,
+rfc varchar(100) unique,
+nombre varchar(100),
+apellido_paterno varchar(100),
+apellido_materno varchar(100),
+email varchar(100)
+);
